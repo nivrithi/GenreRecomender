@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Bootstrap 4</title>
+  <style>  
+        body {background-color: aliceblue;  }  
+        #div1{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(255, 255, 255);
+            animation-name: demo;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+            position: relative;
+        }
+        #div2{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(255, 255, 255);
+            animation-name: demo;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+            position: relative
+        }
+        @keyframes demo{
+            0%{background-color: rgb(222, 172, 245);left:0px;top:0px;}
+            25%{background-color: rgb(173, 195, 255);left:300px;top:0px;}
+            50%{background-color: rgb(212, 253, 241);left:300px;top:300px;}
+            75%{background-color: rgb(184, 243, 172);left:0px;top:300px;}
+            100%{background-color: rgb(237, 250, 191);left:0px;top:0px;}
+        }
+
+    </style>
+</head>
+<body>
+    <marquee><h1>Moving Animation</h1></marquee>
+    <div id="div1">
+
+    </div>
+    <div id="div2">
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
